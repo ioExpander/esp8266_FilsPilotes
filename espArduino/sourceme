@@ -1,0 +1,2 @@
+#!/bin/zsh
+source "/home/akumar/Code/Arduino/env/bin/activate"

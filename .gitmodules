@@ -1,0 +1,3 @@
+[submodule "espArduino/lib/DS3232RTC"]
+	path = espArduino/lib/DS3232RTC
+	url = https://github.com/ioExpander/DS3232RTC.git
