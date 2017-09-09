@@ -3,7 +3,7 @@ const PING_INTERVAL_MILLIS = 5000;
 var output = document.getElementById('output');
 var connectionLabel = document.getElementById('connectionLabel');
 var socket;
-var EspHostname = '192.168.1.26';
+var EspHostname = '192.168.1.31';
 //var EspHostname = 'actarus.local';
 
 $(document).ready(function() {

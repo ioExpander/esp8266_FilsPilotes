@@ -77,6 +77,10 @@ char* getFormattedBootTime() {
   return formatTime(bootTime);
 }
 
+char* getFormattedBootDate() {
+  return getFormattedDate(bootTime);
+}
+
 char* getFormattedUptime() {
   sprintf(uptimeBuf, "%d", now() - bootTime);
   return uptimeBuf;

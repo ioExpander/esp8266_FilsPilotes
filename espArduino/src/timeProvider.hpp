@@ -27,6 +27,7 @@ char* getFormattedLastNtpUpdateTime();
 char* getFormattedNextNtpUpdateTime();
 char* getFormattedUptime();
 char* getFormattedBootTime();
+char* getFormattedBootDate();
 
 char* formatTime(time_t time);
 

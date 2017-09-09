@@ -90,6 +90,8 @@ void handleEspStatus() {
   } else message += "False";
   message += "\", \"BootTime\":\"";
   message += getFormattedBootTime();
+  message += "\", \"BootDate\":\"";
+  message += getFormattedBootDate();
   message += "\", \"Uptime\":\"";
   message += getFormattedUptime();
   message += "\", \"#Crashes\":\"";
